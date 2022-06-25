@@ -102,10 +102,11 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: Georgia, serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background: seagreen
 }
 
 .wrapper {
@@ -119,13 +120,21 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1em;
+  height: 350px;
   width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: left;
+  border-left: 2px solid #999;
+  
+}
+
+p{
+    font-family: Georgia, serif;
+    flex-wrap: wrap;
+    padding: 2em;
 }
 
 
